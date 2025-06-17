@@ -202,7 +202,7 @@ CORS: \*
 + 500 (Internal Server Error) - Ошибка сервера
 
 # /catControls/food
-* **PUT**-запрос
+* **PATCH**-запрос
 * Необходим заголовок `Authorization`
 * Принимает данные в `application/json`
 
@@ -221,7 +221,7 @@ CORS: \*
 
 
 # /catControls/water
-* **PUT**-запрос
+* **PATCH**-запрос
 * Необходим заголовок `Authorization`
 * Принимает данные в `application/json`
 
@@ -244,7 +244,7 @@ CORS: \*
 
 
 # /catControls/toy
-* **PUT**-запрос
+* **PATCH**-запрос
 * Необходим заголовок `Authorization`
 * Принимает данные в `application/json`
 
